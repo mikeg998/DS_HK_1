@@ -8,13 +8,18 @@
 	"buffers":
 	[
 		{
-			"contents": "# Data Science @ Hong Kong\n\nRepository for raw data and sripts. Course Materials are hosted on the [GitHub Wiki](https://github.com/ga-students/DS_HK_1/wiki).\n\nThe wiki can be cloned with \n\n`git clone git@github.com:ga-students/DS_HK_1.wiki.git`\n",
 			"file": "Michael",
-			"file_size": -1,
-			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lessons/lesson01/nytimes.csv",
+			"settings":
+			{
+				"buffer_size": 4920381,
 				"line_ending": "Unix"
 			}
 		}
@@ -22,9 +27,45 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"",
+				"Git: Diff Staged"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git diff",
+				"Git: Diff Staged"
+			],
+			[
+				"git i",
+				"Git: Diff Staged"
+			],
+			[
+				"git de",
+				"Git: Diff Staged"
+			],
 			[
 				"project",
 				"Project: Save As"
@@ -39,10 +80,6 @@
 			],
 			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"",
 				"Package Control: Install Package"
 			]
 		],
@@ -68,6 +105,9 @@
 	},
 	"file_history":
 	[
+		"/Users/TheG/DS_HK_1/DS-HK_1.sublime-project",
+		"/Users/TheG/DS_HK_1/data/baseballRegressionData/regression-benchmark.csv",
+		"/Users/TheG/DS_HK_1/data/baseballRegressionData/baseball_test_2012.csv"
 	],
 	"find":
 	{
@@ -102,7 +142,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -112,6 +152,34 @@
 					"settings":
 					{
 						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lessons/lesson01/nytimes.csv",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4920381,
 						"regions":
 						{
 						},
@@ -170,6 +238,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
 	},
 	"project": "DS-HK_1.sublime-project",
 	"replace":
